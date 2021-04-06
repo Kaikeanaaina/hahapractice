@@ -45,6 +45,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <h1>Hāhā Practice</h1>
+        <h5>Na Kainoa Keanaaina</h5>
         <button onClick={this.reRandomizer}>New Client</button>
         <p>Gender: {this.state.gender}</p>
         <p>Age: {this.state.age}</p>
